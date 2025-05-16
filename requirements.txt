@@ -1,0 +1,36 @@
+# Core language and OpenAI integrations
+langchain>=0.1.0
+openai>=1.0.0
+langchain-openai>=0.0.5
+
+# Pinecone vector database
+pinecone
+grpcio>=1.50.0
+
+# Streamlit for UI
+streamlit>=1.30.0
+
+# MySQL connector
+pymysql>=1.1.0
+
+# Pydantic for settings/schema validation
+pydantic>=2.0
+pydantic-settings>=2.0
+
+# Utility libraries
+uuid
+typing-extensions
+setuptools
+wheel
+
+# LangGraph & LangSmith
+langgraph>=0.0.20
+langsmith>=0.0.70
+
+# Optional for async tracing or debugging
+httpx>=0.24.0
+google-api-core
+google-api-python-client
+google-auth
+google-auth-httplib2
+googleapis-common-protos
